@@ -1,0 +1,93 @@
+
+header{
+    font-family:Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid lightslategray;
+}
+
+h3{
+    padding: 0 20px ;
+}
+
+
+body{
+    background-color: rgb(244, 244, 244);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+p{
+    margin-top: 0;
+    color: rgb(184, 184, 184);
+}
+
+.form-control{
+    box-sizing: border-box;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 0px;
+    padding: 20px;
+    background-color: rgb(253, 253, 253);
+}
+
+.email,.password{
+    border: 1px solid rgb(184, 184, 184);
+    padding: 10px;
+    margin-bottom: 20px ;
+
+}
+
+input{
+    background-color: transparent;
+}
+
+.options{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+a{
+    color:rgb(103, 62, 127);
+    float: right;
+}
+
+button{
+    margin: 10px 0;
+}
+.sign-in{
+    font-size: 15px;
+    background-color: rgb(78, 42, 135);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0 ;
+
+}
+.sign-up{
+    font-size: 12px;
+    background-color:transparent;
+    padding: 10px;
+    border-radius: none;
+    border: 1px solid rgb(184, 184, 184);
+
+}
+
+button:hover{
+    background-color: rgb(200, 198, 198);
+}
