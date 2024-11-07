@@ -29,7 +29,6 @@ img{
     width: 100%;
     position: absolute;
     z-index: -1;
-    
 }
 p{
     margin-top: 0;
@@ -85,7 +84,6 @@ button{
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 button:hover{
